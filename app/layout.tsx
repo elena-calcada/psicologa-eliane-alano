@@ -21,12 +21,12 @@ export const metadata: Metadata = {
   keywords: ["Psicoterapia", "Terapia", "Psicologia", "Eliane Alano", "Psicóloga Clínica", "Vitória", "cidade de Vitória", "ES", "Estado do Espírito Santo", "Psicóloga Clínica em Vitória/ES", "Terapia em Vitória/ES", "Psicoterapia em Vitória/ES", "Ansiedade", "Transtornos de ansiedade", "Psicoterapia para ansiedade", "Depressão", "Psicoterapia para depressão", "Autoconhecimento", "Psicoterapia para autoconhecimento", "Desenvolvimento pessoal", "Psicoterapia para desenvolvimento pessoal", "adultos", "Psicoterapia para adultos", "Problemas comportamentais", "Transtorno do Déficit de Atenção", "TDA", "Transtorno do Déficit de Atenção e Hiperatividade", "TDAH", "Psicoterapia para TDAH", "Orientação de pais e responsáveis", "Transtornos do neurodesenvolvimento", "Distúrbios do neurodesenvolvimento", "Transtorno Obsessivo Compulsivo", "TOC", "Traumas", "Transtornos relacionados a traumas", "Distúrbio do sono", "Comportamento alimentar", "Distúrbio alimentar", "Autoestima", "Autocuidado", "Relacionamentos familiares", "relacionamentos interpessoais", "online", "Atendimento online", "presencial", "Atendimento presencial", "Saúde mental", "Qualidade de vida", "Abordagens inovadoras", "Terapia individualizada", "Ambiente acolhedor", "Psicóloga Qualificada", "Psicóloga Empática", "Psicóloga de confiança"],
   openGraph: {
     title: "Psicóloga Eliane Alano - Vitória/ES",
-    description: "A psicóloga Eliane Alano é Psicóloga Clínica com foco em Psicologia Corporal em Vitória/ES",
+    description: "Psicóloga Clínica com foco em Psicologia Corporal em Vitória/ES",
     url: "https://www.psicologaandreiataufner.com.br",
     siteName: "Psicóloga Eliane Alano",
     images: [
       {
-        url: "/openGraphImage.png",
+        url: "/openGraphImage.jpeg",
         alt: "Esta é uma fotografia da psicóloga Eliane Alano sentada em uma cadeira de madeira, estofada com um tecido bege claro e com uma almofada vermelha colocada no encosto. Ela está vestindo calças brancas largas e uma blusa verde escura com mangas compridas. Ela tem cabelos castanhos escuros e está sorrindo para a câmera. Ela está sentada de pernas cruzadas, com o braço esquerdo apoiado na cadeira e o braço direito com o cotovelo apoiado na perna e a mão apoiando o queixo. O piso é de madeira de cor clara."
       }
     ],
