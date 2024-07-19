@@ -53,7 +53,7 @@ const Header = () => {
 
         <button
           onClick={() => setOpenNav(!openNav)}
-          className="text-primary xl:hidden"
+          className={`xl:hidden ${shadow ? 'text-primary' : 'text-blueColor-buttonColor'}`}
         >
           {!openNav ?
             <MdMenu className="text-4xl" /> :
