@@ -11,7 +11,7 @@ const SocialNav = ({ containerStyles, onClickCloseNav }: Props) => {
   return (
     <div className={`${containerStyles} gap-8`}>
       <motion.div
-        className="shadow-lg py-2 px-4 rounded-lg shadow-gray-400 bg-blueColor-buttonColor text-white"
+        className="shadow-lg py-2 px-4 rounded-lg shadow-gray-400 bg-blueColor-buttonColor text-white flex items-center justify-center"
         whileHover={{ y: -2 }}
         whileTap={{ scale: 0.9 }}
       >
@@ -25,7 +25,7 @@ const SocialNav = ({ containerStyles, onClickCloseNav }: Props) => {
         </Link>
       </motion.div>
       <motion.div
-        className="flex items-center justify-center"
+        className="flex items-center justify-center shadow-lg p-2 rounded-full shadow-gray-400"
         whileHover={{ y: -2 }}
         whileTap={{ scale: 0.9 }}
       >
