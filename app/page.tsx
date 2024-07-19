@@ -1,17 +1,23 @@
-import Image from "next/image";
+import AboultSection from "@/components/AboultSection";
+import AreasSection from "@/components/AreasSection";
+import BodyPsychologySection from "@/components/BodyPsychologySection";
+import BraziliansAbroadSection from "@/components/BraziliansAbroadSection";
+import ClinicSection from "@/components/ClinicSection";
+import ContactSection from "@/components/ContactSection";
+import HomeSection from "@/components/HomeSection";
+import TherapeuticProcessSection from "@/components/TherapeuticProcessSection";
 
 export default function Home() {
   return (
-    <main className="h-[100vh] flex flex-col items-center justify-center">
-      <div className="w-full flex flex-col items-center justify-center px-4">
-        <Image
-          src={'/assets/logo.svg'}
-          alt="Logo da psicóloga Eliane Alano"
-          width={410}
-          height={258}
-        />
-        <h1 className="font-poppins font-bold text-4xl text-primary mt-8 text-center">Em construção</h1>
-      </div>
+    <main>
+      <HomeSection />
+      <AboultSection />
+      <AreasSection />
+      <TherapeuticProcessSection />
+      <BodyPsychologySection />
+      <BraziliansAbroadSection />
+      <ClinicSection />
+      <ContactSection />
     </main>
   );
 }

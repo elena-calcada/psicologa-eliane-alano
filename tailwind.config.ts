@@ -25,7 +25,8 @@ const config: Config = {
       poppins: 'var(--font-poppins)'
     },
     backgroundImage: {
-      "home-desktop": 'url(/assets/home.png)',
+      "home-desktop": 'url(/assets/home-desktop.png)',
+      "home-mobile": 'url(/assets/home-mobile.png)',
       dividertOne: "linear-gradient(90deg, #10496F 0%, rgba(72, 123, 114, 0) 100%)",
       dividerTwo: "linear-gradient(270deg, #10496F 0%, rgba(72, 123, 114, 0) 100%)"
     },
