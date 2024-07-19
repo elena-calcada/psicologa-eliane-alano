@@ -17,7 +17,7 @@ const SocialNav = ({ containerStyles, onClickCloseNav }: Props) => {
       >
         <Link
           legacyBehavior
-          href="https://wa.me/5527981234893?text=Olá,%20Andréia!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
+          href="https://wa.me/5527981234893?text=Olá,%20Eliane!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
         >
           <a target="_blank" onClick={onClickCloseNav}>
             Agendar
