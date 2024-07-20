@@ -9,9 +9,9 @@ interface Props {
 
 const SocialNav = ({ containerStyles, onClickCloseNav }: Props) => {
   return (
-    <div className={`${containerStyles} gap-8`}>
+    <div className={`${containerStyles} gap-4 items-center justify-center`}>
       <motion.div
-        className="shadow-lg py-2 px-4 rounded-lg shadow-gray-400 bg-blueColor-buttonColor text-white flex items-center justify-center"
+        className="shadow-md rounded-lg shadow-gray-400 bg-blueColor-buttonColor text-white h-10 px-5 flex items-center justify-center xl:shadow-sm"
         whileHover={{ y: -2 }}
         whileTap={{ scale: 0.9 }}
       >
@@ -25,7 +25,7 @@ const SocialNav = ({ containerStyles, onClickCloseNav }: Props) => {
         </Link>
       </motion.div>
       <motion.div
-        className="flex items-center justify-center shadow-lg p-2 rounded-full shadow-gray-400"
+        className="flex items-center justify-center shadow-md p-2 rounded-full shadow-gray-400 xl:shadow-sm"
         whileHover={{ y: -2 }}
         whileTap={{ scale: 0.9 }}
       >
@@ -35,7 +35,7 @@ const SocialNav = ({ containerStyles, onClickCloseNav }: Props) => {
           className="text-primary"
         >
           <a target="_blank" onClick={onClickCloseNav}>
-            <FaInstagram className="h-8 w-8 text-primary" />
+            <FaInstagram className="h-9 w-9 text-blueColor-buttonColor" />
           </a>
         </Link>
       </motion.div>

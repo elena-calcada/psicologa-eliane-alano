@@ -38,5 +38,5 @@
 }
 
 .container {
-  @apply w-full py-20 px-[15px] md:px-[24px] lg:px-[48px] lg:max-w-[1400px]
+  @apply w-full py-20 px-[15px] md:px-[24px] lg:px-[64px] lg:max-w-[1400px]
 }

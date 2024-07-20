@@ -38,6 +38,7 @@ const config: Config = {
         blueColor: {
           backgroundSection: "#F3F7FA",
           backgroundFooter: "#D8E0E5",
+          logoColor: '#56BBFC',
           buttonColor: "#009BFF",
           mandalaColor: '#B3DEFB',
         },
