@@ -3,6 +3,7 @@
 import { fadeIn } from "@/utils/variants";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { DividerOne } from "./Dividers";
 
 export default function TherapeuticProcessSection() {
   return (
@@ -64,6 +65,7 @@ export default function TherapeuticProcessSection() {
           </div>
         </div>
       </section>
+      <DividerOne />
     </>
   )
 }
