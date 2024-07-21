@@ -14,7 +14,8 @@ export default function TherapeuticProcessSection() {
             alt=""
             width={625}
             height={625}
-            className="absolute right-[-150px] bottom-[120px] sm:right-[-250px] sm:bottom-0 z-30 opacity-20"
+            objectFit="contain"
+            className="absolute right-[-150px] bottom-[280px] sm:right-[-250px] sm:bottom-0 z-30 opacity-20"
           />
           <div className="container">
             <motion.h2
