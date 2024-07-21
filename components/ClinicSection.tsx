@@ -11,7 +11,7 @@ export default function ClinicSection() {
       <section className="bg-blueColor-backgroundSection flex items-center justify-center" id="clinic">
         <div className="container flex flex-col items-center justify-center">
           <motion.h2
-            className="h2 text-center"
+            className="h2 !mb-10 text-center"
             variants={fadeIn("up", 0.4)}
             initial="hidden"
             whileInView={"show"}
@@ -21,7 +21,7 @@ export default function ClinicSection() {
           </motion.h2>
 
           <motion.p
-            className="p text-center mb-12 max-w-[500px]"
+            className="p text-center mb-8 max-w-[500px]"
             variants={fadeIn("up", 0.6)}
             initial="hidden"
             whileInView={"show"}
