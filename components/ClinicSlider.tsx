@@ -30,7 +30,7 @@ const ClinicSlider = () => {
                 alt={item.alt}
                 width={381}
                 height={315}
-                className="z-40 shadow-lg rounded-[0.5rem]"
+                className="z-40 shadow-xl rounded-[0.5rem]"
               />
             </div>
           </SwiperSlide>

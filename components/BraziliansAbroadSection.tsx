@@ -2,6 +2,7 @@
 import { fadeIn } from "@/utils/variants";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { DividerOne } from "./Dividers";
 
 export default function BraziliansAbroadSection() {
@@ -39,8 +40,15 @@ export default function BraziliansAbroadSection() {
                   src="/assets/brasileiros-no-exterior.png"
                   layout="fill" objectFit="cover"
                   alt=""
-                  className="z-40 absolute rounded-se-[25px] rounded-ss-[150px] rounded-e-[150px] md:rounded-ss-[200px] md:rounded-ee-[200px] rounded-s-[25px]"
+                  className="z-40 shadow-xl absolute rounded-se-[25px] rounded-ss-[150px] rounded-e-[150px] md:rounded-ss-[200px] md:rounded-ee-[200px] rounded-s-[25px]"
                 />
+                <Link
+                  href="https://br.freepik.com/fotos-gratis/foto-de-uma-linda-garota-adolescente-com-bochechas-rechonchudas-e-corpo-curvilineo-posando-na-sala-de-estar-usando-uma-conexao-de-internet-sem-fio-se-comunicando-online-por-chat-de-audio-usando-telefone-celular-e-fones-de-ouvido_11101361.htm#fromView=search&page=1&position=22&uuid=562e2a86-b5b9-4458-aec7-cf0232236e99"
+                  target={'_blank'}
+                  className="absolute z-50 text-white bottom-0 left-4 font-dm_sans text-[12px] opacity-30"
+                >
+                  Image by freepik
+                </Link>
               </motion.div>
               <motion.div
                 className="z-40 flex flex-col gap-4 lg-xl:w-[80%] xl:w-[55%]"

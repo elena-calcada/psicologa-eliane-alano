@@ -35,8 +35,15 @@ export default function ContactSection() {
                 src="/assets/contato.jpg"
                 layout="fill" objectFit="cover"
                 alt=""
-                className="z-40 absolute rounded-se-[150px] rounded-ss-[25px] rounded-e-[25px] rounded-s-[150px] md:rounded-se-[200px] md:md:rounded-es-[200px]"
+                className="z-40 shadow-xl absolute rounded-se-[150px] rounded-ss-[25px] rounded-e-[25px] rounded-s-[150px] md:rounded-se-[200px] md:md:rounded-es-[200px]"
               />
+              <Link
+                href="https://www.freepik.com/free-photo/close-up-man-browsing-his-mobile-phone_5615586.htm#fromView=search&page=3&position=17&uuid=77174dc2-6f8b-4d84-9d89-f02eceed10cb"
+                target={'_blank'}
+                className="absolute z-50 bottom-0 right-4 font-dm_sans text-[12px] opacity-30"
+              >
+                Image by freepik
+              </Link>
             </motion.div>
 
             <div className="flex flex-col items-center justify-center lg:items-start">

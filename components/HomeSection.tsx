@@ -1,11 +1,19 @@
 "use client"
 import { fadeIn } from "@/utils/variants";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import WhatsappButton from "./ButtonWhatsapp";
 
 export default function HomeSection() {
   return (
-    <section className="w-full h-[100vh] flex flex-col items-center justify-center bg-home-mobile bg-cover bg-center bg-no-repeat lg:bg-home-desktop" id="home">
+    <section className="relative w-full h-[100vh] flex flex-col items-center justify-center bg-home-mobile bg-cover bg-center bg-no-repeat lg:bg-home-desktop" id="home">
+      <Link
+        href="https://br.freepik.com/fotos-gratis/mulher-feliz-e-por-do-sol-no-fundo_5913264.htm"
+        target={'_blank'}
+        className="absolute z-40 bottom-0 right-1 font-dm_sans text-[12px] opacity-70"
+      >
+        Image by freepik
+      </Link>
       <div className="container w-full h-[65vh] flex flex-col items-center justify-center gap-8 lg:items-start lg:justify-start 2xl:h-[50vh]">
         <motion.h1
           className="h1 text-center !text-white !font-semibold xs:!text-7xl xl:text-[128px] lg:text-start"

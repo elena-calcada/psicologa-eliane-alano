@@ -2,6 +2,7 @@
 import { fadeIn } from "@/utils/variants";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { DividerOne } from "./Dividers";
 
 export default function TherapeuticProcessSection() {
@@ -40,8 +41,15 @@ export default function TherapeuticProcessSection() {
                   src="/assets/processo-terapeutico.png"
                   layout="fill" objectFit="cover"
                   alt=""
-                  className="z-40 absolute rounded-se-[150px] rounded-ss-[25px] rounded-e-[25px] rounded-s-[150px] md:rounded-se-[200px] md:md:rounded-es-[200px]"
+                  className="z-40 shadow-xl absolute rounded-se-[150px] rounded-ss-[25px] rounded-e-[25px] rounded-s-[150px] md:rounded-se-[200px] md:md:rounded-es-[200px]"
                 />
+                <Link
+                  href="https://br.freepik.com/fotos-gratis/empresarios-trabalhando-juntos_12162846.htm#fromView=search&page=1&position=4&uuid=7ad715c9-5f43-4d06-adfc-242e97f131f7"
+                  target={'_blank'}
+                  className="absolute z-50 text-white bottom-0 right-4 font-dm_sans text-[12px] opacity-30"
+                >
+                  Image by freepik
+                </Link>
               </motion.div>
               <motion.div
                 className="z-40 flex flex-col gap-4 lg-xl:w-[80%] xl:w-[55%]"
