@@ -6,6 +6,7 @@ import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { LuInstagram, LuMapPin, LuPhone } from "react-icons/lu";
 import WhatsappButton from "./ButtonWhatsapp";
+import { DividerOne } from "./Dividers";
 
 export default function ContactSection() {
   return (
@@ -80,7 +81,7 @@ export default function ContactSection() {
                 </li>
                 <li>
                   <Link
-                    href='mailto:andreiacrispsi@gmail.com'
+                    href='mailto:ealano.psi@hotmail.com'
                     target={'_blank'}
                     className="p flex gap-2"
                   >
@@ -109,6 +110,7 @@ export default function ContactSection() {
           </div>
         </div>
       </section>
+      <DividerOne />
     </>
   )
 }
