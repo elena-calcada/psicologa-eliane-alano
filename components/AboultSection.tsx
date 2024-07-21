@@ -9,7 +9,7 @@ export default function AboultSection() {
   return (
     <>
       <section className="bg-white" id="aboult">
-        <div className="relative w-full h-full flex items-center justify-center">
+        <div className="relative overflow-hidden w-full h-full flex items-center justify-center">
           <Image
             src="/assets/mandala.svg"
             alt=""

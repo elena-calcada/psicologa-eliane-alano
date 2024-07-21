@@ -8,14 +8,14 @@ export default function TherapeuticProcessSection() {
   return (
     <>
       <section className="bg-white" id="therapeutic-process">
-        <div className="relative w-full h-full flex items-center justify-center">
-          {<Image
+        <div className="relative h-full flex items-center justify-center overflow-hidden">
+          <Image
             src="/assets/mandala.svg"
             alt=""
             width={625}
             height={625}
-            className="absolute right-[-150px] bottom-[120px] z-30 opacity-20 sm:right-[-250px] sm:bottom-0"
-          />}
+            className="absolute right-[-150px] bottom-[120px] sm:right-[-250px] sm:bottom-0 z-30 opacity-20"
+          />
           <div className="container">
             <motion.h2
               className="h2 text-center"
