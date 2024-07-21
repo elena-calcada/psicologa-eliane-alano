@@ -1,5 +1,4 @@
 
-
 "use client"
 import { fadeIn } from "@/utils/variants";
 import { motion } from "framer-motion";
@@ -8,7 +7,7 @@ import Image from "next/image";
 export default function TherapeuticProcessSection() {
   return (
     <>
-      <section className="bg-white" id="aboult">
+      <section className="bg-white" id="therapeutic-process">
         <div className="relative w-full h-full flex items-center justify-center">
           {<Image
             src="/assets/mandala.svg"
