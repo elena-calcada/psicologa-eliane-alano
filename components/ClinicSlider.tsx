@@ -24,7 +24,7 @@ const ClinicSlider = () => {
       {clinicImages.map((item, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="pb-12">
+            <div className="pb-12 px-[2px]">
               <Image
                 src={item.image}
                 alt={item.alt}
