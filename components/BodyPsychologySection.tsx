@@ -36,7 +36,7 @@ export default function BodyPsychologySection() {
               />
             </motion.div>
             <motion.div
-              className="z-40 flex flex-col gap-4 lg-xl:w-[80%] xl:w-[55%] xl:mt-10"
+              className="z-40 flex flex-col gap-4 lg-xl:w-[80%] xl:w-[55%]"
               variants={fadeIn("up", 0.8)}
               initial="hidden"
               whileInView={"show"}
