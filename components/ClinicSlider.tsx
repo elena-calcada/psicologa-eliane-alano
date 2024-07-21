@@ -1,4 +1,5 @@
 "use client"
+
 import { clinicImages } from "@/utils/clinicImages"
 import Image from "next/image"
 import 'swiper/css'

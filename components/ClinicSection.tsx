@@ -35,6 +35,7 @@ export default function ClinicSection() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
+            className="max-w-[381px] xl:max-w-[800px]"
           >
             <ClinicSlider />
           </motion.div>
