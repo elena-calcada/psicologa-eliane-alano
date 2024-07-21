@@ -38,7 +38,7 @@ export default function AboultSection() {
                 src="/assets/sobre.jpeg"
                 layout="fill" objectFit="cover"
                 alt=""
-                className="z-40 absolute rounded-se-[25px] rounded-ss-[150px] rounded-e-[150px] md:rounded-ss-[200px] md:rounded-ee-[200px] rounded-s-[25px] "
+                className="z-40 absolute rounded-se-[25px] rounded-ss-[150px] rounded-e-[150px] md:rounded-ss-[200px] md:rounded-ee-[200px] rounded-s-[25px]"
               />
             </motion.div>
             <motion.div
