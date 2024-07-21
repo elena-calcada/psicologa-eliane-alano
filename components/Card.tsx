@@ -15,7 +15,7 @@ const Card = ({ containerStyle, area }: Props) => {
         height={149}
         className="absolute mx-auto my-auto inset-0 opacity-20 z-30"
       />
-      <h3 className="h3 text-titleColor z-40 max-w-[320px] text-center">{area}</h3>
+      <h3 className="h3 text-titleColor z-40 max-w-[270px] text-center">{area}</h3>
     </div>
   )
 }
