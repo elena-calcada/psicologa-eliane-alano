@@ -57,7 +57,7 @@ export default function AboultSection() {
                   Minha paixão pela psicologia e a vontade de entender e orientar as pessoas na sua busca de uma vida melhor e com mais sentido me levaram a descobrir a psicologia corporal. Passei também por um longo processo terapêutico pessoal  que considero fundamental na formação de um psicólogo.
                 </p>
                 <p className="p">
-                  Atualmente realizo atendimento presencial  de adultos em qualquer fase da vida na cidade de Vitória -ES e também on line.
+                  Atualmente realizo atendimento presencial  de adultos em qualquer fase da vida na cidade de Vitória - ES e também on line.
                 </p>
               </motion.div>
             </div>

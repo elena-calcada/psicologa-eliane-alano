@@ -98,7 +98,7 @@ export default function ContactSection() {
                 </li>
                 <li className="p flex gap-2">
                   <LuMapPin size={26} className="text-primary" />
-                  <span>Mata da Praia, Vitória/ES</span>
+                  <span>Mata da Praia, Vitória - ES</span>
                 </li>
               </motion.ul>
 

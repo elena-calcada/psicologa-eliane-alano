@@ -27,7 +27,7 @@ export default function ClinicSection() {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
           >
-            Localizado no bairro Mata da Praia em Vitória – ES dispõe de total acessibilidade, conforto, privacidade e segurança.
+            Localizado no bairro Mata da Praia em Vitória - ES dispõe de total acessibilidade, conforto, privacidade e segurança.
           </motion.p>
 
           <motion.div
