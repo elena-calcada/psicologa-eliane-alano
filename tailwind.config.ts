@@ -16,7 +16,7 @@ const config: Config = {
       'md-max': { max: '1023px' },
       lg: '1024px',
       'lg-max': { max: '1279px' },
-      'lg-xl': { min: '1024px', max: '1280px' },
+      'lg-xl': { min: '1024px', max: '1279px' },
       xl: '1280px',
       '2xl': '1440px'
     },

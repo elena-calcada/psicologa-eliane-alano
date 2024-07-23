@@ -17,7 +17,7 @@
   }
 
   .h1 {
-    @apply text-titleColor text-8xl lg:text-[112px] tracking-[-3px];
+    @apply text-titleColor text-6xl lg:text-[112px] tracking-[-3px];
   }
 
   .h2 {

@@ -16,16 +16,16 @@ export default function HomeSection() {
       </Link>
       <div className="container w-full h-[65vh] flex flex-col items-center justify-center gap-8 lg:items-start lg:justify-start 2xl:h-[50vh]">
         <motion.h1
-          className="h1 text-center !text-white !font-semibold xs:!text-7xl xl:text-[128px] lg:text-start"
+          className="h1 text-center !text-white !font-semibold sm-lg:text-[86px] xl:text-[96px] lg:text-start"
           variants={fadeIn("up", 0.4)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.2 }}
         >
-          Eliane Alano
+          Eliane Alano Pereira
         </motion.h1>
         <motion.p
-          className="p text-center !text-white !text-xl !font-medium max-w-[500px] xs:max-w-[400px] lg:max-w-[700px] lg:!text-2xl lg:text-start"
+          className="p text-center !text-white !text-base !font-medium max-w-[500px] xs:max-w-[400px] lg:max-w-[700px] sm-lg:!text-xl lg:!text-2xl lg:text-start"
           variants={fadeIn("up", 0.6)}
           initial="hidden"
           whileInView={"show"}

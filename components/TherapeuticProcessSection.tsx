@@ -62,7 +62,7 @@ export default function TherapeuticProcessSection() {
                   Esta é uma dúvida comum. A decisão de iniciar um processo terapêutico pode surgir em um momento de crise em que a pessoa questiona suas escolhas e o rumo que sua vida está tomando. É um momento em que sintomas físicos e psicológicos podem estar presentes. Estes “sintomas” podem variar desde os menos intensos, uma certa inquietação ou a sensação de que algo está errado até mais intensos como ansiedade, falta de ar, pânico, dores de cabeça frequentes, dores nas costas, tristeza intensa, falta de clareza, falta de ânimo, apatia, falta de desejo etc..
                 </p>
                 <p className="p">
-                  O importante é a constatação de que algo não vai bem e que é necessário obter ajuda profissional. Neste momento é necessário parar e buscar um profissional adequado e que atenda às suas demandas.
+                  O importante é a constatação de que algo não vai bem e de que é necessário obter ajuda profissional. Neste momento é necessário parar e buscar um profissional adequado e que atenda às suas demandas.
                 </p>
                 <p className="p">
                   É importante ter em mente que a psicoterapia é um espaço seguro onde predomina a ética, a confidencialidade e a escuta sem julgamento.  Decidir fazer terapia é uma decisão importante que envolve  ter um momento para se olhar,  se cuidar e entender que toda a sua vida pode mudar.
