@@ -68,12 +68,12 @@ export default function ContactSection() {
               >
                 <li>
                   <Link
-                    href="tel:+555199872326"
+                    href="tel:+555198872326"
                     target="_blank"
                     className=" p flex gap-2"
                   >
                     <LuPhone size={26} className="text-primary" />
-                    (51) 99872326
+                    (51) 9887-2326
                   </Link>
                 </li>
                 <li>

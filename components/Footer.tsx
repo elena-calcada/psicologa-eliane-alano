@@ -34,7 +34,7 @@ const Footer = () => {
             <ul className="flex items-center justify-center gap-6">
               <li>
                 <Link
-                  href="tel:+555199872326"
+                  href="tel:+555198872326"
                   target="_blank"
                   className=" p flex gap-2"
                 >
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="https://wa.me/555199872326?text=Olá,%20Eliane!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
+                  href="https://wa.me/555198872326?text=Olá,%20Eliane!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
                   target="_blank"
                   className="p flex gap-2"
                 >
