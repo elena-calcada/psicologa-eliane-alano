@@ -28,7 +28,7 @@ const Footer = () => {
             </h3>
 
             <div className="flex flex-col gap-1 justify-center items-center">
-              <span className="p">Telefone: (27) 99872326 </span>
+              <span className="p">Telefone: (51) 99872326 </span>
             </div>
 
             <ul className="flex items-center justify-center gap-6">
