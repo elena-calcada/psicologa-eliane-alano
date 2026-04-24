@@ -5,6 +5,6 @@ export const linksNav = [
   { name: 'Processo Terapêutico', target: 'therapeutic-process', offset: -40 },
   { name: 'Psicologia Corporal', target: 'body-psychology', offset: -40 },
   { name: 'Brasileiros no exterior', target: 'brazilians-abroad', offset: -40 },
-  { name: 'Consultório', target: 'clinic', offset: -40 },
+  /* { name: 'Consultório', target: 'clinic', offset: -40 }, */
   { name: 'Contato', target: 'contact', offset: -40 },
 ]

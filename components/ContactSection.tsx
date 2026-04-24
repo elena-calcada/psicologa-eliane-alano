@@ -68,12 +68,12 @@ export default function ContactSection() {
               >
                 <li>
                   <Link
-                    href="tel:+5527981234893"
+                    href="tel:+555199872326"
                     target="_blank"
                     className=" p flex gap-2"
                   >
                     <LuPhone size={26} className="text-primary" />
-                    (27) 9 8123-4893
+                    (51) 99872326
                   </Link>
                 </li>
                 <li>
@@ -98,7 +98,7 @@ export default function ContactSection() {
                 </li>
                 <li className="p flex gap-2">
                   <LuMapPin size={26} className="text-primary" />
-                  <span>Mata da Praia, Vitória - ES</span>
+                  <span>Porto Alegre - RS</span>
                 </li>
               </motion.ul>
 

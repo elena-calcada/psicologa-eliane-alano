@@ -18,7 +18,7 @@ const Footer = () => {
               Localização
             </h3>
             <div className="flex flex-col gap-1 justify-center items-center">
-              <span className="p">Mata da Praia, Vitória / ES</span>
+              <span className="p">Porto Alegre - RS</span>
             </div>
           </div>
 
@@ -28,13 +28,13 @@ const Footer = () => {
             </h3>
 
             <div className="flex flex-col gap-1 justify-center items-center">
-              <span className="p">Telefone: (27) 9 8123-4893 </span>
+              <span className="p">Telefone: (27) 99872326 </span>
             </div>
 
             <ul className="flex items-center justify-center gap-6">
               <li>
                 <Link
-                  href="tel:+5527981234893"
+                  href="tel:+555199872326"
                   target="_blank"
                   className=" p flex gap-2"
                 >
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="https://wa.me/5527981234893?text=Olá,%20Eliane!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
+                  href="https://wa.me/555199872326?text=Olá,%20Eliane!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
                   target="_blank"
                   className="p flex gap-2"
                 >
